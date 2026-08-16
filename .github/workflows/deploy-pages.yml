@@ -27,7 +27,7 @@ jobs:
           node-version: 22
 
       - name: Unpack website source
-        run: unzip -q atelier-forged-source-pages.zip
+        run: unzip -oq atelier-forged-source-pages.zip
 
       - name: Install dependencies
         run: npm ci
